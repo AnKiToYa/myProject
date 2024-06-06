@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyCart</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
+  <body>
+    <!--NAV BAR-->
+    <nav class="sidebar">
+      <h1 class="header_title">Food Restaurant</h1>
+      <div class="sidebar_menu">
+        <ul>
+          <li>
+            <a href="index.html"
+              ><span class="material-symbols-outlined"> home </span>Home</a
+            >
+          </li>
+
+          <li>
+            <a href="profile.html"
+              ><span class="material-symbols-outlined"> person </span>Profile</a
+            >
+          </li>
+
+          <li>
+            <a href="contact.html"
+              ><span class="material-symbols-outlined"> contact_support </span
+              >Contact Us</a
+            >
+          </li>
+          <li>
+            <a href="ourFood.html"
+              ><span class="material-symbols-outlined"> fastfood </span>Our
+              Food</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="login">
+        <button class="sidebar_login_button">
+          <span class="material-symbols-outlined"> login </span>Login
+        </button>
+      </div>
+    </nav>
+    <!--NAV BAR-->
+
+    <div class="main">
+      <!--MAIN NAVBAR-->
+      <div class="main_navbar">
+        <div class="menu_toggle">
+          <span class="material-symbols-outlined"> menu </span>
+        </div>
+
+        <div class="profile">
+          <a href="profile.html" class="user_profile"
+            ><span class="material-symbols-outlined"> person </span></a
+          >
+        </div>
+      </div>
+      <!--MAIN NAVBAR-->
+
+      <section id="myCart">
+        <div class="cart_container">
+          <h2>My Cart</h2>
+          <hr class="divide" />
+          <div class="cart_row_container"></div>
+        </div>
+
+        <div class="cart_summary_container">
+          <div class="price_container">
+            <h2>Total :</h2>
+            <h2 class="cart_total_price">$0</h2>
+          </div>
+
+          <button class="pay_button">Go Payment</button>
+        </div>
+      </section>
+    </div>
+
+    <!--MAIN CONTENT-->
+    <script src="/script.js"></script>
+  </body>
+</html>

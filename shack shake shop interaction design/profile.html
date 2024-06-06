@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
+  <body>
+    <!--NAV BAR-->
+    <nav class="sidebar">
+      <h1 class="header_title">Food Restaurant</h1>
+      <div class="sidebar_menu">
+        <ul>
+          <li>
+            <a href="index.html"
+              ><span class="material-symbols-outlined"> home </span>Home</a
+            >
+          </li>
+          <li>
+            <a href="myCart.html"
+              ><span class="material-symbols-outlined"> shopping_cart </span>My
+              Cart</a
+            >
+          </li>
+
+          <li>
+            <a href="ourFood.html"
+              ><span class="material-symbols-outlined"> fastfood </span>Our
+              Food</a
+            >
+          </li>
+
+          <li>
+            <a href="contact.html"
+              ><span class="material-symbols-outlined"> contact_support </span
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="login">
+        <button class="sidebar_login_button">
+          <span class="material-symbols-outlined"> login </span>Login
+        </button>
+      </div>
+    </nav>
+    <!--NAV BAR-->
+
+    <div class="main">
+      <!--MAIN NAVBAR-->
+      <div class="main_navbar">
+        <div class="menu_toggle">
+          <span class="material-symbols-outlined"> menu </span>
+        </div>
+
+        <div class="profile">
+          <a href="myCart.html" class="shopping_cart"
+            ><span class="material-symbols-outlined"> shopping_cart </span></a
+          >
+        </div>
+      </div>
+      <!--MAIN NAVBAR-->
+
+      <section id="profile">
+        <form class="profile_container">
+          <h2>Profile</h2>
+          <hr class="divide" />
+          <div class="profile_item_container">
+            <div class="profile_item">
+              <label class="username_title" for="username_input"
+                >User Name</label
+              >
+              <input type="text" id="username_input" placeholder="" />
+            </div>
+
+            <div class="profile_item">
+              <label class="phone_title" for="phone_input">Phone Number</label>
+              <input type="text" id="phone_input" />
+            </div>
+
+            <div class="profile_item">
+              <label class="address_title" for="address_input">Address</label>
+
+              <textarea
+                name="address_input"
+                id="address_input"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+
+            <div class="profile_item">
+              <label class="gender_title" for="gender_input">Gender</label>
+              <div class="gender_input_container">
+                <div class="gender_input_container_item">
+                  <label for="male">Male</label>
+                  <input type="radio" id="male" name="gender_input" />
+                </div>
+
+                <div class="gender_input_container_item">
+                  <label for="female">Female</label>
+                  <input type="radio" id="female" name="gender_input" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="save_changes">SAVE CHANGES</button>
+        </form>
+      </section>
+    </div>
+
+    <!--MAIN CONTENT-->
+    <script src="/script.js"></script>
+  </body>
+</html>
