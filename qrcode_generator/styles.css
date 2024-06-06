@@ -1,0 +1,60 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remove default list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove default link styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(23, 28, 46);
+}
+
+main {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  row-gap: 1rem;
+  border-radius: 5px;
+  padding: 2rem;
+}
+
+input {
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+button {
+  color: white;
+  background-color: rgb(37, 37, 207);
+  padding: 1rem;
+  border-radius: 4px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.img-box {
+  padding: 0.5rem;
+  border: 5px black solid;
+}
